@@ -1,0 +1,67 @@
+.tabla-cliente table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 10px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 20%;
+  }
+  
+  .tabla-cliente table tr {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  
+  .tabla-cliente table td:first-child {
+    min-width: 100px;
+    padding-right: 10px;
+  }
+  
+  .tabla-cliente table input[type="text"],
+  .tabla-cliente table input[type="email"],
+  .tabla-cliente table select {
+    flex: 1;
+  }
+  
+  .tabla-cliente input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+  }
+  
+  .tabla-cliente input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+body{
+    background-color: black;
+}
+.marco {
+  border: 2px solid rgb(226, 136, 10);
+  padding: 200px;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: antiquewhite;
+}

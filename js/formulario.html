@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilof.css">
+    <title>Document</title>
+</head>
+<body class="col">
+  <div class="marco">
+    <div class="tabla-cliente">
+    
+        <table >
+          <div>
+            <h2>DEJANOS TUS DATOS</h2>
+          </div>
+          
+              <tr>
+                <td style="background-color:azure;">Nombre:</td>
+                <td style="border: 2px;color:azure;"><input type="text" name="nombre"></td>
+              </tr>
+              <tr>
+                <td style="background-color:azure;" >Apellidos:</td>
+                <td><input type="text" name="apellidos"></td>
+              </tr>
+              <tr>
+                <td style="background-color: azure;">Teléfono:</td>
+                <td><input type="text" name="telefono"></td>
+              </tr>
+              <tr>
+                <td style="background-color:azure;" >Correo:</td>
+                <td><input type="email" name="correo"></td>
+              </tr>
+              <tr>
+            <td style="background-color: azure;">Tipo de pago:</td>
+            <td>
+              <select name="tipo-pago">
+                <option value="tarjeta">Tarjeta de crédito</option>
+                <option value="transferencia">Transferencia bancaria</option>
+                <option value="efectivo">Efectivo</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+        <input style="text-align: center;" type="submit" value="Enviar datos" onclick="mostrarMensaje()">
+      </div>
+    </div>  
+      <script>
+        function mostrarMensaje() {
+          alert("Gracias por tu preferencia, en breve te respondemos.");
+        }
+      </script>
+      
+      
+</body>
+</html>

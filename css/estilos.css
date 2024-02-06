@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+
+h1 {
+    color:blue;
+    font-size: 130px;
+}
+
+.carousel p {
+    color:rgb(215, 69, 16);
+    font-size: 35px;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    width: 20%;
+    margin: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .contenedor-tarjetas {
+        width: 90%;
+    }
+
+    .contenedor-tarjetas .tarjeta {
+        width: 90%;
+    }
+
+    .eliminar {
+        display: none;
+    }
+
+    .agrandar {
+        width: 90%;
+        margin: auto;
+    }
+}
